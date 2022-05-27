@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -22,18 +23,23 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="109dp"
-        android:layout_height="27dp"
+        android:layout_width="152dp"
+        android:layout_height="42dp"
         android:layout_weight="1"
-        android:text="INGRESA COMO: "
+        android:background="@drawable/styl_borde_edittext"
+        android:fontFamily="sans-serif"
+        android:text="INGRESA COMO:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="26dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/colorbutton"
         android:text="@string/veterinario_BUTTON"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
@@ -44,8 +50,9 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="186dp"
+        android:layout_height="42dp"
+        android:background="@drawable/colorbutton"
         android:text="@string/administrador_BUTTON"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,8 +63,9 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/colorbutton"
         android:text="@string/cliente_BUTTON"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
