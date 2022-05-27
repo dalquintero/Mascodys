@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mascodys">
         <activity
+            android:name=".cliente"
+            android:exported="false" />
+        <activity
+            android:name=".veterinario"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador"
+            android:exported="false" />
+        <activity
             android:name=".MascodysLgo"
             android:exported="true">
             <intent-filter>

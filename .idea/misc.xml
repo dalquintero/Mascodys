@@ -3,9 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Mascodys/app/src/main/res/drawable/colorbutton.xml" value="0.259" />
-        <entry key="..\:/Mascodys/app/src/main/res/drawable/fondo_degradado.xml" value="0.297" />
-        <entry key="..\:/Mascodys/app/src/main/res/drawable/styl_borde_edittext.xml" value="0.327" />
         <entry key="..\:/Mascodys/app/src/main/res/layout/activity_main.xml" value="0.35280797101449274" />
         <entry key="..\:/Mascodys/app/src/main/res/layout/activity_mascodys_lgo.xml" value="0.35280797101449274" />
       </map>
