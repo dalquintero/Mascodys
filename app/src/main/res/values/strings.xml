@@ -3,4 +3,5 @@
     <string name="veterinario_BUTTON">VETERINARIO</string>
     <string name="administrador_BUTTON">ADMINISTRADOR</string>
     <string name="cliente_BUTTON">CLIENTE</string>
+    <string name="todo">TODO</string>
 </resources>
