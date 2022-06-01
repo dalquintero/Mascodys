@@ -20,23 +20,19 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         button2= findViewById(R.id.button2);
         button3= findViewById(R.id.button3);
 
-
-
-
-
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.button:
-                startActivity (new Intent (MainActivity.this, veterinario.class));
-                break;
             case R.id.button2:
-                startActivity (new Intent (MainActivity.this, Administrador.class));
+                startActivity (new Intent (this, Administrador.class));
+                break;
+            case R.id.button:
+                startActivity (new Intent (this, veterinario.class));
                 break;
             case R.id.button3:
-                startActivity (new Intent (MainActivity.this, cliente.class));
+                startActivity (new Intent (this, cliente.class));
                 break;
         }
     }
